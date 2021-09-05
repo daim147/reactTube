@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="ui container">
-      <SearchBar onFormSubmit={() => console.log("heeehehehe")} />
+      <SearchBar onFormSubmit={(searchValue) => search(searchValue)} />
       <div className="ui grid">
         <div className="ui row">
           <div className="ten wide column">
